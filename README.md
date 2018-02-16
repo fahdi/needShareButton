@@ -1,7 +1,7 @@
-#needShareButton 1.0.0
+# needShareButton 1.0.0
 ##Do you need share button dropdown? Here you go!
 
-###Short facts
+### Short facts
 * Pure Javascript, no need to use jQuery
 * 21 social networks and mailto links
 * 2 different view styles
@@ -11,16 +11,16 @@
 
 Written by: Dzmitry Vasileuski
 
-###License
+### License
 Released under the MIT license - http://opensource.org/licenses/MIT
 
-##Getting started
+## Getting started
 
-###Step 1: Add required files from dist directory
+### Step 1: Add required files from dist directory
 
 Download the package from this repository and include needsharebutton.min.js and needsharebutton.min.css.
 
-```html
+```html 
 <!-- needPopup Javascript file -->
 <script src="js/needsharebutton.min.js"></script>
 <!-- needPopup CSS file -->
@@ -36,7 +36,7 @@ You can add data-attributes to easily configure script.
 <span id="share-button" class="need-share-button-default"></span>
 ```
 
-###Step 3: Call needShareButton initialization
+### Step 3: Call needShareButton initialization
 
 Just place `new needShareDropdown(document.getElementById('share-button'));` in your javascript code.
 
@@ -44,7 +44,7 @@ Just place `new needShareDropdown(document.getElementById('share-button'));` in 
 new needShareDropdown(document.getElementById('share-button'));
 ```
 
-##Customization
+## Customization
 
 There are two ways to set settings.
 
@@ -68,7 +68,7 @@ To use your own stylized button to trigger social share dropdown, you need to pu
 
 That's all. Please, enjoy to use.
 
-###Options
+### Options
 
 **shareButtonClass**
 Class of children element which should be used as dropdown trigger button

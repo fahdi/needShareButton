@@ -1,5 +1,5 @@
 {
-  "name": "needPopup",
+  "name": "slim-share",
   "description": "Responsive, easy to use modal windows developed on Javascript with JQuery.",
   "version": "1.0.0",
   "main": "./Gruntfile.js",
